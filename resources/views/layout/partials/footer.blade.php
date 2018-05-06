@@ -1,5 +1,4 @@
 <footer class="fixed-bottom text-muted">
-
          
     <div class="container">
 
@@ -10,9 +9,7 @@
                    </p>
 
           <p>Copyright Chris Humphreys 2018</p>
-
              
     </div>
-
        
 </footer>
