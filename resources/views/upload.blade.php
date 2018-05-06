@@ -6,7 +6,9 @@
 
 <div class="container-fluid">
 
-    <form></form>
+    {!! Form::open(['url' => 'foo/bar']) !!}
+        //
+    {!! Form::close() !!}
 
 </div>
 
