@@ -4,7 +4,9 @@
 
 @section('content')
 
-<div>
+<div class="container-fluid">
+
+    <form></form>
 
 </div>
 
