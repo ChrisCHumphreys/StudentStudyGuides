@@ -14,12 +14,12 @@
 
 <!-- Bootstrap core CSS -->
 
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUIyJ" crossorigin="anonymous">
+<link rel="stylesheet" href="{{ asset('css/lux.css') }}" integrity="" crossorigin="anonymous">
 
 
 
 
 <!-- Custom styles for this template -->
-
-<link href="../../../../public/css/lux.css" rel="stylesheet">
-
+<!--
+<link href="/public/css/lux.css" rel="stylesheet">
+-->
