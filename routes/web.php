@@ -25,8 +25,18 @@ Route::get('/demo', function () {
 
 });
 
-Route::get('/demo', function () {
+/*
+ * For testing file uplaods
+ */
 
-    return view('demo');
+Route::get('/upload', function() {
+
+  return view('upload');
+
+});
+
+Route::post('/upload', function() {
+
+  return view('fileList');
 
 });
