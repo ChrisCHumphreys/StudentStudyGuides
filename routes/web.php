@@ -35,10 +35,5 @@ Route::get('/upload', function() {
 
 });
 
+Route::post('/upload', 'UploadsController@create')->name('uploadCreate');
 
-
-Route::post('/upload', function() {
-
-  return view('fileList');
-
-});

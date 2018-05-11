@@ -18,5 +18,5 @@ class UserStudyGuideController extends Controller
         $request->file('studyGuide')->store('studyGuides');
 
         redirect('/demo');
-    }  
+    }
 }
