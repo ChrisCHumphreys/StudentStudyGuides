@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Uploads;
 
 class UploadsController extends Controller
 {
@@ -18,8 +19,12 @@ class UploadsController extends Controller
         //dd($request);
         $path = $request->file('Browse')->store('studyGuides/test');
 
-        $path->store();
-        return $path;
+        $upload = new Uploads;
+
+        $upload->filePath = $path;
+
+        $upload->save();
+
         //redirect('/demo');
     }
 }
