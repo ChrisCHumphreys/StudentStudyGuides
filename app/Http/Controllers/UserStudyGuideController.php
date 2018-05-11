@@ -15,8 +15,8 @@ class UserStudyGuideController extends Controller
 
     public function update(Request $request)
     {
-        $path = $request->file('studyGuide')->store('studyGuides');
+        $request->file('studyGuide')->store('studyGuides');
 
-        return $path;
+        redirect('/demo');
     }  
 }

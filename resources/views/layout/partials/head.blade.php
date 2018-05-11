@@ -15,6 +15,7 @@
 <!-- Bootstrap core CSS -->
 <!-- Bootswatch Lux Theme -->
 <link rel="stylesheet" href="{{ asset('css/lux.css') }}" integrity="" crossorigin="anonymous">
+<link rel="stylesheet" href="{{ asset('css/style.css') }}">
 
 
 

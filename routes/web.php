@@ -26,7 +26,7 @@ Route::get('/demo', function () {
 });
 
 /*
- * For testing file uplaods
+ * For testing file uploads
  */
 
 Route::get('/upload', function() {
@@ -34,6 +34,8 @@ Route::get('/upload', function() {
   return view('upload');
 
 });
+
+
 
 Route::post('/upload', function() {
 
