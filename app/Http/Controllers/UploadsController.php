@@ -16,8 +16,9 @@ class UploadsController extends Controller
     public function create(Request $request)
     {
         //dd($request);
-        $path = $request->file('Browse')->store('studyGuides');
+        $path = $request->file('Browse')->store('studyGuides/test');
 
+        $path->store();
         return $path;
         //redirect('/demo');
     }
